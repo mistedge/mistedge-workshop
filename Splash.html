@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+        <meta charset="UTF-8">
+        <title>MistEdge</title>
+
+        <style>
+            body{
+                background-image: url("SpalshScreen.png");
+                background-size: 100%
+
+            }
+        p{
+
+            color:slateblue;
+            font-size: 50%;
+            width: 0%;
+            animation-name: splashload;
+            animation-duration: 10s;
+            
+        }
+        @keyframes splashload {
+            0%{width: 0%; background-color: red; color: red}
+            50%{background-color: yellow; color: yellow}
+            100%{width: 100%; background-color: green; color: green}
+        }
+        
+        </style>
+  </head>
+  <body> <script>
+  console.log("Loaded")
+  </script>
+    <p class="load">Loading </p>
+  </body>
+
+</html>

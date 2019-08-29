@@ -1,0 +1,23 @@
+{
+  "name": "mistedge",
+  "version": "1.0.0",
+  "description": "Create Your Dreams",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Bryson",
+  "license": "MIT",
+  "keywords": [
+    "mistedge"
+  ],
+  "devDependencies": {
+    "electron": "^6.0.2",
+    "electron-packager": "^14.0.4",
+    "electron-wix-msi": "^2.1.1"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "git": "^0.1.5"
+  }
+}

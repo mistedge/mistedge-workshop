@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta charset="UTF-8">
+    <title>MistEdge</title>
+ 
+    <style>
+    .ButtonStart{
+      border-style: none;
+      background-color: snow;
+      width: 30%;
+      font-size: 200%;
+      margin-top: 40%;
+      margin-left: 10%;
+      cursor: pointer;
+      color: slategrey;
+      border-radius: 25px;
+      
+    } 
+    .ButtonStart:hover{
+      background-color: slategray;
+
+    }
+    body{
+      background-image: url("Back.jpg");
+      animation-name: bodyanimi;
+      animation-duration: 140s;
+      
+    }
+    @keyframes bodyanimi {
+  from {background-position-x:0%;}
+  to {background-position-x: 1600%;}
+    }
+  
+    h1 {
+      margin-left: 30%;
+      color:snow;
+    }
+    
+    
+    .ButtonOpen{
+      border-style: none;
+      background-color: snow;
+      width: 30%;
+      font-size: 200%;
+      
+      margin-left: 70%;
+      cursor: pointer;
+      color: slategrey;
+      border-radius: 25px;
+      
+    } 
+    .ButtonOpen:hover{
+      background-color: slategray;
+
+    }
+    </style>
+  </head>
+  <body>
+    <script>
+      const { app, BrowserWindow } = require('electron')
+      
+      </script>
+
+
+      
+    <h1 id="Start"  >Welcome to MistEdge!!</h1>
+    <form>
+      
+      <button  type="button"  class="ButtonStart" ><a href="New.html">Start New</a></button>
+     <button  type="button"  class="ButtonOpen" onclick="window.open('open.html')"><a href="">Open</a></button>
+    </form>
+  
+
+   
+</body>
+</html>
