@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "electron ."
+    "build":
   },
   "author": "Bryson",
   "license": "MIT",
