@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "electron ."
-    "build":
+    "build": "mistedge build --output public"
+    {
+  
+  
+}
   },
   "author": "Bryson",
   "license": "MIT",
